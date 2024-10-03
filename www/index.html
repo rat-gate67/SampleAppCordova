@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>User List App</title>
+    <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+<!-- ユーザー一覧画面 -->
+<div id="user-list">
+    <h1>ユーザー一覧</h1>
+    <ul id="users">
+    <!-- JavaScriptでダミーデータを挿入 -->
+    </ul>
+</div>
+
+<!-- ユーザー詳細画面 -->
+<div id="user-detail" style="display:none;">
+    <button id="back-btn">&lt; 戻る</button>
+    <div id="user-info">
+        <img id="avatar" src="" alt="avatar" />
+        <h2 id="name"></h2>
+        <p>年齢: <span id="age"></span></p>
+        <p>性別: <span id="gender"></span></p>
+        <p>住所: <span id="address"></span></p>
+        <p>電話番号: <span id="phone"></span></p>
+        <p>作成日時: <span id="created_at"></span></p>
+        <p>更新日時: <span id="updated_at"></span></p>
+    </div>
+</div>
+
+<script src="js/index.js"></script>
+</body>
+</html>
+

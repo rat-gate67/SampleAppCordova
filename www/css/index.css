@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#user-list {
+    padding: 20px;
+}
+
+#user-detail {
+    padding: 20px;
+    margin-top: 20px; /* 上部に余白を追加 */
+}
+
+ul {
+    list-style-type: none; /* 箇条書き（・）を削除 */
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc; /* 枠を追加 */
+    border-radius: 8px; /* 角を少し丸くする */
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+li:hover {
+    background-color: #e0e0e0; /* ホバー時に色を変更 */
+}
+
+li img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+/* 詳細画面の画像のスタイルを追加 */
+#user-detail #avatar {
+    border-radius: 50%; /* 画像を丸くする */
+    width: 100px; /* サイズを調整 */
+    height: 100px; /* サイズを調整 */
+    display: block; /* ブロック要素として表示 */
+    margin-bottom: 10px; /* 下に余白を追加 */
+}
+
+button {
+    display: block;
+    margin-bottom: 20px;
+}
